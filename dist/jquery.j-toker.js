@@ -325,7 +325,7 @@
     this.checkDependencies();
 
     // TODO: add config option for these bindings
-    if (true) {
+    if (false) {
       // update auth creds after each request to the API
       $(document).ajaxComplete(root.auth.updateAuthCredentials);
 
